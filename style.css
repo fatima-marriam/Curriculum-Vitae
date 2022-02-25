@@ -1,0 +1,131 @@
+.fis{
+    background-color: #3a404b;
+    color: white;
+    margin-top: 12px;
+    max-width: 1234px;
+}
+.ss h3{
+    padding-top: 22px;
+    padding-left: 22px;
+    font-size: 32px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.ss .pp{
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-top: 0px;
+    
+}
+hr{
+    border: 1px solid #261b30 !important;
+}
+
+.ad{
+    padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.emr a{
+    padding-left: 22px;
+    margin-top: 0px;
+    padding-top: 0px;
+color: white;
+text-decoration: none;
+}
+.emr{
+    margin-bottom: 22px;
+}
+.emr a:hover{
+    color: white;
+}
+
+
+
+@media screen and (max-width:560px){
+    .linka li > a:first-child{
+    position: relative;
+    justify-content: center;
+        left: 210%;
+        
+    }
+    .ss h3, .pp, .ad{
+        text-align: center;
+        justify-content: center;
+        display: block;
+    }
+    .emr a{
+        text-align: center;
+        justify-content: center;
+        display: block;
+      
+    }
+   
+
+}
+
+/* ===================================paragraph=============================================== */
+
+.para{ 
+    padding-top: 16px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1234px;
+}
+
+.ini{
+    text-align: justify;
+}
+/* ==========================================link========================= */
+
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #373d48;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+  
+}
+
+/* ===================================================================== */
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: 
+    #373d48;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .fcs{
+    margin-left: 6px;
+    margin-top: 3px;
+    
+}
+.fcss{
+    margin-left: 8px;
+}
+.fa{
+    color: white;
+ 
+}
+
+
+@media screen and (max-width:400px){
+
+    .linka li > a:first-child{
+        position: relative;
+        justify-content: center;
+            left: 120%;
+            
+        }
+        
+}
